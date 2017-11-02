@@ -1,0 +1,29 @@
+{
+  "name": "workout-form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erikbenton/rithm-workout-form.git"
+  },
+  "author": "Erik Benton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erikbenton/rithm-workout-form/issues"
+  },
+  "homepage": "https://github.com/erikbenton/rithm-workout-form#readme",
+  "devDependencies": {
+    "autoprefixer": "^7.1.6",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.0",
+    "gulp-watch": "^4.3.11",
+    "normalize.css": "^7.0.0",
+    "postcss-import": "^11.0.0",
+    "postcss-nested": "^2.1.2",
+    "postcss-simple-vars": "^4.1.0"
+  }
+}

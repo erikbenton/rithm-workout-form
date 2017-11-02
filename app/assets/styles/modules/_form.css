@@ -1,0 +1,22 @@
+form {
+
+	.form-title {
+		font-size: 3.0rem;
+		text-align: center;
+	}
+
+	.entry {
+		float: left;
+		display: inline-block;
+		margin-right: 2.0rem;
+
+		input[type="text"] {
+			width: 15em;
+		}
+
+		input[type="number"] {
+			width: 2em;
+		}
+
+	}
+}

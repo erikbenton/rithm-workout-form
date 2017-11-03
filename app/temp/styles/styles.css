@@ -453,6 +453,7 @@ template {
 .container {
 	width: 75%;
 	margin: 12px auto;
+	background-color: #f5ebb7;
 }
 
 form .form-title {

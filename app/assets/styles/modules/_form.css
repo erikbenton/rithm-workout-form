@@ -10,12 +10,16 @@ form {
 		display: inline-block;
 		margin-right: 2.0rem;
 
+		label {
+			font-weight: 700;
+		}
+
 		input[type="text"] {
 			width: 15em;
 		}
 
 		input[type="number"] {
-			width: 2em;
+			width: 3em;
 		}
 
 	}

@@ -1,4 +1,5 @@
 @import "normalize.css";
 @import "/base/_variables.css";
 @import "/modules/_container.css";
+@import "/modules/_table.css";
 @import "/modules/_form.css";

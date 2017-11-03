@@ -1,5 +1,6 @@
 .container {
-	width: 75%;
+	width: 50%;
 	margin: 12px auto;
 	background-color: $backgroundColor;
+	padding: 18px 30px;
 }

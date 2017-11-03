@@ -3,6 +3,7 @@
 <head>
 	<title>Rithm Workout Form</title>
 	<link rel="stylesheet" type="text/css" href="./temp/styles/styles.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body>
 
@@ -16,11 +17,23 @@
 		<div class="entry">
 			<label>Rating: <input type="number" step="true" name="rating" placeholder="5" min="0" max="10"></label>
 		</div>
-		<button type="submit">Add Workout</button>
+		<button class="add-btn" type="submit">Add Workout</button>
 	</form>
+
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Workout Name</th>
+				<th>Rating</th>
+				<th>Delete</th>
+			</tr>
+		</thead>
+	</table>
+
 </div>
 
-
-
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./temp/scripts/App.js"></script>
 </body>
 </html>

@@ -451,10 +451,20 @@ template {
 }
 
 .container {
-	width: 75%;
+	width: 50%;
 	margin: 12px auto;
-	background-color: #f5ebb7;
+	background-color: #fdfdfd;
+	padding: 18px 30px;
 }
+
+.table {
+	text-align: center;
+
+}
+
+.table th {
+		text-align: center;
+	}
 
 form .form-title {
 		font-size: 3.0rem;
@@ -468,10 +478,14 @@ form .entry {
 
 	}
 
+form .entry label {
+			font-weight: 700;
+		}
+
 form .entry input[type="text"] {
 			width: 15em;
 		}
 
 form .entry input[type="number"] {
-			width: 2em;
+			width: 3em;
 		}
